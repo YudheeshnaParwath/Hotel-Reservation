@@ -1,23 +1,19 @@
-package com.yudhi.hotelreservation.model.response;
+package com.yudhi.hotelreservation.model;
 
 import java.math.BigDecimal;
 
-import com.yudhi.hotelreservation.model.Links;
-
-public class ReservationResponse {
+public class Reservation {
 
 	private Long id;
 	private Integer roomNumber;
 	private BigDecimal price;
 	private Links links;
 	
-	
-	
-	public ReservationResponse() {
+	public Reservation() {
 		super();
 	}
 
-	public ReservationResponse(Long id, Integer roomNumber) {
+	public Reservation(Long id, Integer roomNumber) {
 		super();
 		this.id = id;
 		this.roomNumber = roomNumber;
